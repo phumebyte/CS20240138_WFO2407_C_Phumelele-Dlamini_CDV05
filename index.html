@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Software Developer|Phumelele Dlamini</title>
+        <link rel="icon" type="png" href="/assets/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="tasks.js"></script>
+        <!--Linked Google fonts from Scrimba-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img class="logo-img" src="/assets/logo-phumelele-dlamini.png" alt="Phumelele-Dlamini-logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav-item"><a href="#Home" class="nav__link">Home</a></li>
+                    <li class="nav-item"><a href="#Services" class="nav__link">Technologies</a></li>
+                    <li class="nav-item"><a href="#About" class="nav__link">About Me</a></li>
+                    <li class="nav-item"><a href="#Certifications" class="nav__link">Certifications</a></li>
+                    <li class="nav-item"><a href="#Work" class="nav__link">Portfolio</a></li>
+                    <li class="nav-item"><a onclick="openModal()" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>        
+
+        <!---Intro Section-->
+        <section class="Intro" id="Home">
+            <div class="container">
+                <div class="intro-text">
+                    <h1 class="section__title section__title--intro">
+                        Hi, I am <br> <strong>Phumelele Dlamini</strong>!
+                    </h1>
+                    <div class="section__subtitle section__subtitle--intro" id="title-typewriter">
+                        <span id="intro-text"></span><span id="cursor"></span>
+                    </div>
+                    <div class="intro-button-container">
+                        <button class="contact-form-button" onclick="openModal()">
+                            <span>GET IN TOUCH!</span>
+                            <?xml version="1.0" ?><svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-8 2.999c1.648 0 3 1.351 3 3A3.012 3.012 0 0 1 13 11c-1.647 0-3-1.353-3-3.001 0-1.649 1.353-3 3-3zM19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18z"/></svg>
+                        </button>
+                        <a href="/assets/CV - Phumelele Dlamini.pdf" download="CV - Phumelele Dlamini.pdf" class="download-button">
+                            <button class="download-resume">
+                                <span>DOWNLOAD RESUME</span>
+                                <?xml version="1.0" ?><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"/></svg>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="socials">
+                        <span class="linkedIn-button">
+                            <a href="https://www.linkedin.com/in/phumelele-dlamini-732203270/" target="_blank">
+                                <?xml version="1.0" ?><svg data-name="Layer 1" id="Layer_1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><title/><path d="M256,0C114.615,0,0,114.615,0,256S114.615,512,256,512,512,397.385,512,256,397.385,0,256,0ZM183.435,382.667H126.381V203.653h57.054ZM154.908,180.208a32.1,32.1,0,1,1,32.1-32.1A32.1,32.1,0,0,1,154.908,180.208ZM389.2,382.667h-56l0-97.882c0-4.973.785-37.949-27.219-37.949a30.948,30.948,0,0,0-25.681,12.576,39.134,39.134,0,0,0-7.818,23.8v99.451H216.55V203.653h53.216v25.124c12.737-19.541,28.789-26.694,44.578-29.573,28.027-5.11,74.851,11.952,74.851,62.9Z"/></svg>
+                            </a>
+                        </span>
+                        <span class="github-button" target="_blank">
+                            <a href="https://github.com/phumebyte"> 
+                                <?xml version="1.0" ?><svg class="bi bi-github" fill="currentColor" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                 <div class="intro-image">
+                    <img class="intro-img" src="/assets/professional-image.jpeg" alt="picture-of-Phumelele-Dlamini">  
+                </div>
+            </div>  
+        </section>
+
+        <!--My-services Section-->
+        <section class="my-services" id="Services">
+            <h2 class="section__title section__title--services">Technologies & Tools</h2>
+            <div class="services">
+                <div class="tech-stack-carousal">
+                    <div class="tech-stack">
+                        <!--HTML-->
+                        <span class="tech-icon">
+                            <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><polygon fill="#E44D26" points="27.377,28.889 16.001,32 4.625,28.889 2,0 30.002,0  "/><polygon fill="#FF6C39" points="16,2 16,29.75 25.232,27.008 27.688,2  "/><polygon fill="#FFFFFF" points="24.363,6 7.607,6 8,10 8.619,17 19.503,17 19.148,20.984 16,21.99 12.857,20.984 12.648,19    8.803,19 9.262,23.987 16,25.99 22.728,23.986 23.718,13 12.252,13 12.002,10 24,10  "/></g><g/><g/><g/><g/><g/><g/></svg>
+                        </span>
+                        <p>HTML</p>
+                    </div>
+
+                    <div class="tech-stack">
+                        <!--CSS-->
+                        <span class="tech-icon">
+                            <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><polygon fill="#1F62AE" points="27.377,28.889 16.001,32 4.625,28.889 2,0 30.002,0  "/><polygon fill="#347DC6" points="16,2 16,29.75 25.232,27.008 27.688,2  "/><polygon fill="#FFFFFF" points="24.363,6 7.607,6 8,10 16,10 8.25,12.99 8.619,17 19.502,17 19.158,21 16,21.99 12.861,20.984    12.533,19 8.803,19 9.262,23.987 16,25.99 22.728,23.986 23.719,12.99 16.026,12.99 24,10  "/></g><g/><g/><g/><g/><g/><g/></svg>
+                        </span>
+                        <p>CSS</p>        
+                    </div>
+
+                    <div class="tech-stack">
+                        <!--TAILWIND-->
+                        <span class="tech-icon">
+                            <?xml version="1.0" ?><svg fill="none" height="15" viewBox="0 0 15 15" width="15" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M7.5 3C5.63333 3 4.46667 4 4 5.99999C4.7 4.99999 5.51667 4.625 6.45 4.87499C6.98252 5.01763 7.36314 5.43155 7.78443 5.88974C8.47074 6.63613 9.26506 7.49999 11 7.49999C12.8667 7.49999 14.0333 6.49999 14.5 4.5C13.8 5.49999 12.9833 5.87499 12.05 5.62499C11.5175 5.48235 11.1369 5.06844 10.7156 4.61025C10.0293 3.86386 9.23494 3 7.5 3ZM4 7.49999C2.13333 7.49999 0.966667 8.49998 0.5 10.5C1.2 9.49998 2.01667 9.12498 2.95 9.37498C3.48252 9.51762 3.86314 9.93154 4.28443 10.3897C4.97074 11.1361 5.76506 12 7.5 12C9.36667 12 10.5333 11 11 8.99998C10.3 9.99998 9.48333 10.375 8.55 10.125C8.01748 9.98234 7.63686 9.56843 7.21557 9.11023C6.52926 8.36385 5.73494 7.49999 4 7.49999Z" fill-rule="evenodd" stroke="black" stroke-linejoin="round"/></svg>
+                        </span>
+                        <p>Tailwind CSS</p>
+                    </div>
+
+                    <div class="tech-stack">
+                        <!--JAVASCRIPT-->
+                        <span class="tech-icon">
+                            <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg id="Lager_1" style="enable-background:new 0 0 128 128;" version="1.1" viewBox="0 0 128 128" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><g><g><circle cx="64" cy="64" r="50" style="fill:#F0DB4F;"/></g></g><g id="Layer_1_1_"><g><g><path d="M48.4,44.6h8.7v24.5c0,11-5.3,14.9-13.7,14.9c-2.1,0-4.7-0.3-6.4-0.9l1-7.1      c1.2,0.4,2.8,0.7,4.5,0.7c3.7,0,6-1.7,6-7.6L48.4,44.6L48.4,44.6z" style="fill:#323330;"/><path d="M64.8,74.4c2.3,1.2,6,2.4,9.7,2.4c4,0,6.1-1.7,6.1-4.3c0-2.4-1.8-3.8-6.5-5.4      c-6.4-2.3-10.7-5.9-10.7-11.6C63.4,49,69,44,78.1,44c4.4,0,7.6,0.9,9.9,2l-2,7c-1.5-0.7-4.3-1.8-8-1.8c-3.8,0-5.6,1.8-5.6,3.7      c0,2.5,2.1,3.6,7.2,5.5c6.8,2.5,10,6.1,10,11.6c0,6.5-4.9,12-15.6,12c-4.4,0-8.8-1.2-11-2.4L64.8,74.4z" style="fill:#323330;"/></g></g></g></g></svg>
+                        </span>    
+                        <p>JavaScript</p>
+                    </div>
+                     
+                    <div class="tech-stack">
+                        <!--REACT-->
+                        <span class="tech-icon">
+                            <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 128 128" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><g transform="matrix(1.25305,0,0,1.25305,-16.3076,4.57191)"><circle cx="64" cy="47.5" r="9.3" style="fill:rgb(97,218,251);"/><path d="M64,81.7C71.3,88.8 78.5,93 84.3,93C86.2,93 88,92.6 89.5,91.7C94.7,88.7 96.6,81.2 94.8,70.5C94.5,68.6 94.1,66.7 93.6,64.7C95.6,64.1 97.4,63.5 99.2,62.9C109.3,59 114.9,53.6 114.9,47.7C114.9,41.7 109.3,36.3 99.2,32.5C97.4,31.8 95.6,31.2 93.6,30.7C94.1,28.7 94.5,26.8 94.8,24.9C96.5,14 94.6,6.4 89.4,3.4C87.9,2.5 86.1,2.1 84.2,2.1C78.5,2.1 71.2,6.3 63.9,13.4C56.7,6.3 49.5,2.1 43.7,2.1C41.8,2.1 40,2.5 38.5,3.4C33.3,6.4 31.4,13.9 33.2,24.6C33.5,26.5 33.9,28.4 34.4,30.4C32.4,31 30.6,31.6 28.8,32.2C18.7,36.1 13.1,41.5 13.1,47.4C13.1,53.4 18.7,58.8 28.8,62.6C30.6,63.3 32.4,63.9 34.4,64.4C33.9,66.4 33.5,68.3 33.2,70.2C31.5,80.9 33.4,88.5 38.5,91.4C40,92.3 41.8,92.7 43.7,92.7C49.5,92.9 56.7,88.7 64,81.7ZM58.4,68.2C60.2,68.3 62.1,68.3 64,68.3C65.9,68.3 67.8,68.3 69.6,68.2C67.8,70.6 65.9,72.8 64,74.9C62.1,72.8 60.2,70.6 58.4,68.2ZM46,57.9C47,59.6 47.9,61.2 49,62.8C45.9,62.4 43,61.9 40.2,61.3C41.1,58.6 42.1,55.8 43.3,53C44.1,54.6 45,56.3 46,57.9ZM40.2,33.8C43,33.2 45.9,32.7 49,32.3C48,33.9 47,35.5 46,37.2C45,38.9 44.1,40.5 43.3,42.2C42,39.3 41,36.5 40.2,33.8ZM45.7,47.5C47,44.8 48.4,42.1 50,39.4C51.5,36.8 53.2,34.2 54.9,31.6C57.9,31.4 60.9,31.3 64,31.3C67.2,31.3 70.2,31.4 73.1,31.6C74.9,34.2 76.5,36.8 78,39.4C79.6,42.1 81,44.8 82.3,47.5C81,50.2 79.6,52.9 78,55.6C76.5,58.2 74.8,60.8 73.1,63.4C70.1,63.6 67.1,63.7 64,63.7C60.8,63.7 57.8,63.6 54.9,63.4C53.1,60.8 51.5,58.2 50,55.6C48.4,52.9 47,50.2 45.7,47.5ZM84.8,42.1L82.1,37.1C81.1,35.4 80.2,33.8 79.1,32.2C82.2,32.6 85.1,33.1 87.9,33.7C87,36.5 86,39.3 84.8,42.1ZM84.8,52.9C86,55.7 87,58.5 87.9,61.2C85.1,61.8 82.2,62.3 79.1,62.7C80.1,61.1 81.1,59.5 82.1,57.8C83,56.3 83.9,54.6 84.8,52.9ZM87.1,87.6C86.3,88.1 85.3,88.3 84.2,88.3C79.3,88.3 73.2,84.3 67.2,78.3C70.1,75.2 72.9,71.7 75.7,67.8C80.4,67.4 84.9,66.7 89.1,65.7C89.6,67.5 89.9,69.3 90.2,71.1C91.6,79.6 90.5,85.7 87.1,87.6ZM92.3,34.9C103.5,38.1 110.2,43 110.2,47.5C110.2,51.4 105.6,55.3 97.5,58.4C95.9,59 94.1,59.6 92.3,60.1C91,56 89.4,51.8 87.4,47.5C89.4,43.2 91.1,39 92.3,34.9ZM84.3,6.7C85.4,6.7 86.3,6.9 87.2,7.4C90.5,9.3 91.7,15.3 90.3,23.9C90,25.6 89.6,27.4 89.2,29.3C85,28.4 80.5,27.7 75.8,27.2C73.1,23.3 70.2,19.8 67.3,16.7C73.3,10.8 79.4,6.7 84.3,6.7ZM69.6,26.8C67.8,26.7 65.9,26.7 64,26.7C62.1,26.7 60.2,26.7 58.4,26.8C60.2,24.4 62.1,22.2 64,20.1C65.9,22.2 67.8,24.5 69.6,26.8ZM40.9,7.4C41.7,6.9 42.7,6.7 43.8,6.7C48.7,6.7 54.8,10.7 60.8,16.7C57.9,19.8 55.1,23.3 52.3,27.2C47.6,27.6 43.1,28.3 38.9,29.3C38.4,27.5 38.1,25.7 37.8,23.9C36.4,15.4 37.5,9.4 40.9,7.4ZM35.7,60.1C24.5,56.9 17.8,52 17.8,47.5C17.8,43.6 22.4,39.7 30.5,36.6C32.1,36 33.9,35.4 35.7,34.9C37,39 38.6,43.2 40.6,47.5C38.6,51.8 36.9,56.1 35.7,60.1ZM37.8,71.1C38.1,69.4 38.5,67.6 38.9,65.7C43.1,66.6 47.6,67.3 52.3,67.8C55,71.7 57.9,75.2 60.8,78.3C54.8,84.2 48.7,88.3 43.8,88.3C42.7,88.3 41.8,88.1 40.9,87.6C37.5,85.7 36.4,79.6 37.8,71.1Z" style="fill:rgb(97,218,251);fill-rule:nonzero;"/></g></svg>
+                        </span>
+                        <p>React</p>
+                    </div>
+
+                    <div class="tech-stack">
+                        <!--JAVA-->
+                        <span class="tech-icon">
+                            <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="_x31_81-java"><g><path d="M333.283,307.117c8.807-6.02,21.023-11.23,21.023-11.23s-34.768,6.29-69.357,9.165    c-42.315,3.503-87.775,4.221-110.595,1.167c-53.996-7.187,29.647-27.044,29.647-27.044s-32.433-2.154-72.413,17.07    C84.422,319.066,248.383,329.487,333.283,307.117z" style="fill:#5382A1;"/><path d="M256.56,278.277c-17.07-38.362-74.659-72.054,0-130.99C349.727,73.797,301.93,26,301.93,26    c19.316,75.917-67.92,98.917-99.456,146.084C181.001,204.337,212.986,238.927,256.56,278.277z" style="fill:#F8981D;"/><path d="M359.518,119.975c0.09,0-157.403,39.351-82.205,125.958c22.191,25.516-5.84,48.516-5.84,48.516    s56.332-29.108,30.457-65.495C277.762,194.993,259.254,178.103,359.518,119.975z" style="fill:#F8981D;"/><path d="M354.039,362.999c-0.449,1.078-1.797,2.247-1.797,2.336    c115.266-30.277,72.861-106.824,17.787-87.416c-4.852,1.707-7.365,5.66-7.365,5.66s3.053-1.259,9.883-2.696    C400.396,275.044,440.377,318.168,354.039,362.999L354.039,362.999z" style="fill:#5382A1;"/><path d="M396.443,418.971c0,0,13.027,10.692-14.285,19.047c-52.018,15.722-216.339,20.483-261.979,0.63    c-16.441-7.099,14.374-17.072,24.078-19.137c10.061-2.157,15.901-1.799,15.901-1.799c-18.238-12.847-117.963,25.247-50.671,36.119    C292.945,483.657,444.061,440.443,396.443,418.971L396.443,418.971z" style="fill:#5382A1;"/><path d="M195.557,381.776c-70.706,19.766,43.035,60.555,133.055,22.011    c-14.732-5.748-25.334-12.397-25.334-12.397c-40.16,7.637-58.756,8.175-95.233,4.043    C177.948,392.019,195.557,381.776,195.557,381.776L195.557,381.776z" style="fill:#5382A1;"/><path d="M357.092,469.103c-70.705,13.296-157.941,11.771-209.602,3.233c0-0.088,10.602,8.716,65.046,12.22    c82.834,5.302,210.051-2.966,213.016-42.136C425.553,442.42,419.803,457.245,357.092,469.103L357.092,469.103z" style="fill:#5382A1;"/><path d="M317.922,343.144c-53.188,10.243-84.003,9.973-122.904,5.93    c-30.098-3.145-10.422-17.698-10.422-17.698c-77.982,25.874,43.304,55.164,152.281,23.269    C325.289,350.601,317.922,343.144,317.922,343.144z" style="fill:#5382A1;"/></g></g><g id="Layer_1"/></svg>
+                        </span>
+                        <p>Java</p>
+                    </div>
+
+                    <div class="tech-stack">
+                        <!--GIT-->
+                        <span class="tech-icon">
+                            <?xml version="1.0" ?><svg enable-background="new 0 0 24 24" id="Layer_1" version="1.1" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M23.5615234,10.9320221c-0.0009766,0-0.0009766-0.0004883-0.0009766-0.0004883L13.0615234,0.4256744   c-0.5664063-0.567749-1.5576172-0.5672607-2.1220703-0.0004883L0.4384766,10.9320221C0.15625,11.2158966,0,11.5926056,0,11.9927521   c0,0.4006348,0.15625,0.777771,0.4394531,1.0611572l10.4990234,10.5058594   C11.2216797,23.8436432,11.5986328,24.0000153,12,24.0000153s0.7783203-0.1563721,1.0605469-0.4397583l10.5-10.5063477   C23.84375,12.7705231,24,12.3933868,24,11.9927521C24,11.5926056,23.84375,11.2158966,23.5615234,10.9320221z" fill="#EF473B"/><path d="M23.6809692,12.6898956l-10.609375,10.6157837   C12.786438,23.5919952,12.4055176,23.7500153,12,23.7500153s-0.786438-0.15802-1.0725708-0.4448242L0.3190308,12.6898956   c-0.1239624-0.1240845-0.218689-0.2683716-0.2921143-0.4222412c0.0545654,0.2959595,0.1953125,0.5689087,0.4125366,0.7862549   l10.4990234,10.5058594C11.2216797,23.8436432,11.5986328,24.0000153,12,24.0000153s0.7783203-0.1563721,1.0605469-0.4397583   l10.5-10.5063477c0.2172241-0.2173462,0.3580322-0.4902954,0.4125977-0.7862549   C23.8997192,12.421524,23.8049316,12.5658112,23.6809692,12.6898956z" fill="#010101" opacity="0.1"/><path d="M17,10.0000153c-0.3748779,0-0.7219849,0.1100464-1.0222168,0.2902832l-2.2680664-2.2680664   C13.8898926,7.7220612,14,7.3749542,14,7.0000153c0-1.1030273-0.8974609-2-2-2   c-0.369873,0-0.7122803,0.1077881-1.0098267,0.2835693L8.536438,2.8295441L7.8295898,3.5367584l2.4536743,2.4539795   C10.1077271,6.2881012,10,6.6303253,10,7.0000153c0,0.9293213,0.6400146,1.7053833,1.5,1.9289551v6.1420898   C10.6400146,15.294632,10,16.070694,10,17.0000153c0,1.1030273,0.8974609,2,2,2s2-0.8969727,2-2   c0-0.9293213-0.6400146-1.7053833-1.5-1.9289551V8.9289703c0.1767578-0.0459595,0.3425293-0.1158447,0.4968872-0.2055054   l2.2796631,2.2796631C15.1053467,11.2978058,15,11.6353302,15,12.0000153c0,1.1030273,0.8974609,2,2,2s2-0.8969727,2-2   S18.1025391,10.0000153,17,10.0000153z" fill="#FFFFFF"/><path d="M0.4384766,11.1820221L10.9394531,0.6751862   c0.5644531-0.5667725,1.5556641-0.5672607,2.1220703,0.0004883l10.4990234,10.5058594c0,0,0,0.0004883,0.0009766,0.0004883   c0.2523193,0.2537842,0.3969727,0.583252,0.4262695,0.935791C23.991272,12.075943,24,12.0352325,24,11.9927521   c0-0.4001465-0.15625-0.7768555-0.4384766-1.06073c-0.0009766,0-0.0009766-0.0004883-0.0009766-0.0004883L13.0615234,0.4256744   c-0.5664063-0.567749-1.5576172-0.5672607-2.1220703-0.0004883L0.4384766,10.9320221C0.15625,11.2158966,0,11.5926056,0,11.9927521   c0,0.0424194,0.008728,0.0831299,0.012207,0.124939C0.0415649,11.765152,0.1862183,11.4357452,0.4384766,11.1820221z" fill="#FFFFFF" opacity="0.2"/><linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="9.6692657" x2="18.3065948" y1="9.6760864" y2="18.3134155"><stop offset="0" style="stop-color:#010101;stop-opacity:0.1"/><stop offset="1" style="stop-color:#010101;stop-opacity:0"/></linearGradient><path d="M18.5488281,10.7503815C18.8265381,11.0938263,19,11.5248566,19,12.0000153   c0,1.1030273-0.8974609,2-2,2s-2-0.8969727-2-2c0-0.3646851,0.1053467-0.7022095,0.2765503-0.9968872L12.9968872,8.723465   C12.8425293,8.8131256,12.6767578,8.8830109,12.5,8.9289703v6.1420898c0.8599854,0.2235718,1.5,0.9996338,1.5,1.9289551   c0,1.1030273-0.8974609,2-2,2c-0.5114746,0-0.9738159-0.1986694-1.3278809-0.5157471l3.7318115,3.7318115l7.8029175-7.8076782   L18.5488281,10.7503815z M13.7097168,8.0222321l2.2680664,2.2680664C16.2780151,10.1100616,16.6251221,10.0000153,17,10.0000153   c0.4750977,0,0.90625,0.1735229,1.2498169,0.451355l-4.6776733-4.6777344L13.5697021,5.77565   C13.835144,6.1150665,14,6.5366364,14,7.0000153C14,7.3749542,13.8898926,7.7220612,13.7097168,8.0222321z" fill="url(#SVGID_1_)"/><linearGradient gradientUnits="userSpaceOnUse" id="SVGID_2_" x1="2.0138185" x2="21.983366" y1="7.3399205" y2="16.6518726"><stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0.2"/><stop offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/></linearGradient><path d="M23.5615234,10.9320221c-0.0009766,0-0.0009766-0.0004883-0.0009766-0.0004883L13.0615234,0.4256744   c-0.5664063-0.567749-1.5576172-0.5672607-2.1220703-0.0004883L0.4384766,10.9320221C0.15625,11.2158966,0,11.5926056,0,11.9927521   c0,0.4006348,0.15625,0.777771,0.4394531,1.0611572l10.4990234,10.5058594   C11.2216797,23.8436432,11.5986328,24.0000153,12,24.0000153s0.7783203-0.1563721,1.0605469-0.4397583l10.5-10.5063477   C23.84375,12.7705231,24,12.3933868,24,11.9927521C24,11.5926056,23.84375,11.2158966,23.5615234,10.9320221z" fill="url(#SVGID_2_)"/></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg>
+                        </span>
+                        <p>GIT</p>
+                    </div>
+                   
+                    <div class="tech-stack">
+                        <!--FIGMA-->
+                        <span class="tech-icon">
+                            <?xml version="1.0" ?><svg id="Layer_1" style="enable-background:new 0 0 3000 3000;" version="1.1" viewBox="0 0 3000 3000" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                                .st0{fill:#0ACF83;}
+                                .st1{fill:#A259FF;}
+                                .st2{fill:#F24E1E;}
+                                .st3{fill:#FF7262;}
+                                .st4{fill:#1ABCFE;}
+                            </style><title/><desc/><path class="st0" d="M1083.333374,2750c230,0,416.666626-186.666748,416.666626-416.666748v-416.666626h-416.666626  c-230.000061,0-416.666687,186.666626-416.666687,416.666626S853.333313,2750,1083.333374,2750z" id="path0_fill"/><path class="st1" d="M666.666687,1500c0-230,186.666626-416.666748,416.666687-416.666748H1500v833.333374  h-416.666626C853.333313,1916.666626,666.666687,1730,666.666687,1500z" id="path1_fill"/><path class="st2" d="M666.666687,666.666626C666.666687,436.666656,853.333313,250,1083.333374,250H1500  v833.333252h-416.666626C853.333313,1083.333252,666.666687,896.666626,666.666687,666.666626z" id="path1_fill_1_"/><path class="st3" d="M1500,250h416.666626c230.000122,0,416.666626,186.666656,416.666626,416.666626  s-186.666504,416.666626-416.666626,416.666626H1500V250z" id="path2_fill"/><path class="st4" d="M2333.333252,1500c0,230-186.666504,416.666626-416.666626,416.666626S1500,1730,1500,1500  s186.666626-416.666748,416.666626-416.666748S2333.333252,1270,2333.333252,1500z" id="path3_fill"/></svg>
+                        </span>
+                        <p>Figma</p>
+                    </div>    
+
+                    <div class="tech-stack">
+                        <!--TRELLO-->
+                        <span class="tech-icon">
+                            <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 128 128" id="Social_Icons" version="1.1" viewBox="0 0 128 128" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="_x33__stroke"><g id="Trello_1_"><rect clip-rule="evenodd" fill="none" fill-rule="evenodd" height="128" width="128"/><path clip-rule="evenodd" d="M16,0C7.164,0,0,7.168,0,16v96    c0,8.836,7.168,16,16,16h96c8.836,0,16-7.168,16-16V16c0-8.836-7.168-16-16-16H16z M72,24v40c0,4.42,3.58,8,8,8h24    c4.42,0,8-3.58,8-8V24c0-4.42-3.58-8-8-8H80C75.58,16,72,19.58,72,24z M16,24v72c0,4.42,3.58,8,8,8h24c4.42,0,8-3.58,8-8V24    c0-4.42-3.58-8-8-8H24C19.58,16,16,19.58,16,24z" fill="#007AC2" fill-rule="evenodd" id="Trello"/></g></g></svg>
+                        </span>
+                        <p>Trello</p>
+                    </div>
+                </div>
+
+            <a href="#Work" class="carousal-btn">Explore My Projects</a>
+        </section>
+
+        <!--About me Section-->
+        <section class="about-me" id="About"> 
+            <div class="about-container">
+                <div class="about-img">
+                    <img src="/assets/phumelele's-workspace.jpeg">
+                    <p>Enjoying an intense challenge at my workspace</p>
+                    <img src="/assets/codespace-girl.jpeg">
+                    <p>Rocking my Codespace Academy shirt - where I am a student ambassador!</p>
+                </div>
+                <div class="about-text">
+                    <h2 class="section__title section__title--about">Who I am</h2>
+                    <div class="section__subtitle section__subtitle--about" id="about-typewriter">
+                        <span id="about-text"></span><span id="cursor"></span>
+                    </div> 
+                    <div class="about-me__body">
+                        <div>
+                            <h3>Why Software Development?</h3>
+                            <p>
+                                My journey into software development began with a curiosity about building tools that simplify life. I have a strong interest in how human psychology can improve these tools, leading me to focus on cognitive sciences as a long term career goal. I thrive on the challenge of programming, experiencing euphoria when solving difficult problems.
+                            </p>
+                            <p>
+                                Balancing my studies with my personal life, I enjoy painting and I believe my creativity and unique approach to programming set me apart. I emphasize the importance of community and collaboration in development, believing that sharing ideas and feedback drives innovation. Motivated by my career goals, I am eager to practice extensively, and immerse myself in my learning and growth.
+                            </p>
+                        </div>
+                        <div>
+                            <h3>Professional Background</h3>
+                            <p>
+                                I wrote my first line of code in C++ at the <strong>University of the Witwatersrand</strong> where I am pursuing a BSc Eng in Electrical Engineering; my degree is currently on hold. My undying interest in programming led me to pursue <strong>Java Foundations Associate</strong> certification from <strong>Oracle</strong>. <br>I am a proud student at <strong>Codespace Academy</strong> where I am developing strong skills in fullstack development as I learn HTML, CSS, Javascript, React and various programming paradigms such as Object Oriented Programming and Functional Programming. My experience includes building dynamic websites and applications and debugging. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="certifications" id="Certifications">
+                <h2 class="section__title section__title--certifications"> Certifications & Achievements</h2>
+                <div class="badges-and-certificates">
+                    <img class="java-badge" src="/assets/certification-badge-java.png">
+                    <img class="golden-key" src="/assets/golden-key-membership.png">
+                </div>
+            </div>
+        </section>
+
+        <!--Work Section-->
+        <section class="Work" id="Work">
+            <h2 class="section__title">My Projects</h2>
+            <p class="section__subtitle section__subtitle--work">
+                Here is a collection of my work
+            </p>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="/assets/kanban-task-management.png" alt="agile board task management app">
+                    <p><strong>Kanban Task Management App</strong></p>
+                    <p>The task involved using the provided user stories to identify and resolve bugs in the provided JavaScript code, while also developing custom functions to extend the application's features. The goal was to improve the application by writing code to fulfill specific functionalities, such as managing task details and their lifecycle, enabling theme customization toggles, and more.</p>
+                    <a href="https://github.com/phumebyte/CS20240138_WFO2407_GroupC_PhumeleleDlamini_JSL11"><button class="portfolio-btn">View Github</button> </a>
+                </div>
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="/assets/cache-bank-landing-page.png" alt="cache-bank-landing-page">
+                    <p><strong>Responsive Business Landing Page</strong></p>
+                    <p>Created a Landing page for a bank tailored for Software Developers, guided by user stories and a project brief. This project utilises styling techniques and frameworks such as Tailwind CSS, CSS grid and Flexbox to achieve an intuitive interface that meets design principles fundamentals</p>
+                    <a href="https://github.com/phumebyte/CS20240138_WFO2407_GroupC_Phumelele-Dlamini_SDF11?tab=readme-ov-file"><button class="portfolio-btn">View Github</button> </a>
+                </div>
+                <div class="portfolio-item"><img class="portfolio-img" src="/assets/medi-waste-watch.png" alt="MediWasteWatch logo">
+                    <p><strong>MediWasteWatch</strong></p>
+                    <p>Collaborated on a project that integrates blockchain to track the lifecycle of medical waste, including classification, and waste management of medical supplies. My contribution was frontend design and prototyping - I designed the user interface and web wireframes. The focus was creating an intuitive user experience that meets the user profiles.</p>
+                    <a href="https://www.youtube.com/watch?v=u-YYaVulf64"><button class="portfolio-btn">See User Journey</button> </a>
+                </div>
+            </div>    
+        </section>
+
+        <!--Contact form Modal-->
+        <div id="contactModal" class="modal-overlay">
+            <div class="modal-content">
+                <span class="close-button" onclick="closeModal()">&times;</span>
+                <h2>Contact Me</h2>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit"><strong>Send Message</strong></button>
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer class="footer">
+            <a href="mailto:phumelele.dlamini1000@gmail.com" class="footer__link">
+                phumelele.dlamini1000@gmail.com
+            </a>
+            <ul class="social-list">
+                <li class="social-list__item"> <a class="social-list__link" href="https://github.com/phumebyte"><i class="fab fa-github"></i></a> </li>
+                <li class="social-list__item"> <a class="social-list__link" href="https://www.figma.com/files/team/1389517178973690587/user/1389517175947555974?fuid=1389517175947555974"><i class="fab fa-figma"></i></a> </li>
+                <li class="social-list__item"> <a class="social-list__link" href="https://www.instagram.com/_phume/"><i class="fab fa-instagram"></i></a> </li>
+                <li class="social-list__item"> <a class="social-list__link" href="https://www.linkedin.com/in/phumelele-dlamini-732203270/"><i class="fab fa-linkedin"></i></a> </li>
+            </ul>
+        </footer>
+
+        <!--JS script for contact modal visibility-->
+        <script>
+            function openModal() {
+                document.getElementById("contactModal").style.display = "block";
+            }
+
+            function closeModal() {
+                document.getElementById("contactModal").style.display = "none";
+            }
+
+            window.onclick = function(event) {
+                const modal = document.getElementById("contactModal");
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            };
+
+            //contact form submission
+
+            document.getElementById("contactForm").addEventListener("submit", function(event) {
+                event.preventDefault(); // Prevents form from submitting normally
+
+                // Prepare the email parameters
+                const emailParams = {
+                    from_name: document.getElementById("name").value,
+                    from_email: document.getElementById("email").value,
+                    message: document.getElementById("message").value
+                };
+
+                // Send email using EmailJS
+                emailjs.send("service_bohmkyi", "template_9x6temt", emailParams)
+                .then(response => {
+                    alert("Message sent successfully!");
+                    closeModal(); // Close modal after sending
+                })
+                .catch(error => {
+                    alert("Failed to send message. Please try again later.");
+                    console.error("EmailJS error:", error);
+                });
+            });
+
+        </script>
+        <!--JS script for email.js-->
+        <script>
+            (function(){
+                emailjs.init("vu5sjNimm4msWDlz2"); 
+            })();
+        </script>
+        <!--Title typewriter script-->
+        <script>
+            function startTypingEffect(elementId, words) {
+            const textElement = document.getElementById(elementId);
+
+            let wordIndex = 0;
+            let charIndex = 0;
+            const typingSpeed = 100;
+            const erasingSpeed = 50;
+            const delayBetweenWords = 1500;
+
+            function type() {
+                if (charIndex < words[wordIndex].length) {
+                    textElement.textContent += words[wordIndex].charAt(charIndex);
+                    charIndex++;
+                    setTimeout(type, typingSpeed);
+                } else {
+                    setTimeout(erase, delayBetweenWords);
+                }
+            }
+
+            function erase() {
+                if (charIndex > 0) {
+                    textElement.textContent = words[wordIndex].substring(0, charIndex - 1);
+                    charIndex--;
+                    setTimeout(erase, erasingSpeed);
+                } else {
+                    wordIndex = (wordIndex + 1) % words.length;
+                    setTimeout(type, typingSpeed);
+                }
+            }
+
+            // Start the typing effect
+            type();
+        }
+
+        // Initialize typing effects for multiple elements with different word arrays
+        document.addEventListener("DOMContentLoaded", () => {
+            startTypingEffect("intro-text", ["FullStack Developer", "Web Developer", "Frontend Developer"]);
+            startTypingEffect("about-text", ["Creative Problem Solver", "Collaborator", "Design Enthusiast", "Communicator"]); 
+        });
+
+        </script>
+    </body>
+</html>
